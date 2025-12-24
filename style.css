@@ -1,0 +1,194 @@
+/* Custom Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#map {
+    z-index: 1;
+}
+
+/* Leaflet Marker Customization */
+.leaflet-marker-icon {
+    transition: transform 0.3s ease;
+}
+
+.leaflet-marker-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Custom Congestion Colors */
+.congestion-low {
+    background-color: #10B981 !important; /* Green */
+    border-color: #059669 !important;
+}
+
+.congestion-medium {
+    background-color: #F59E0B !important; /* Yellow */
+    border-color: #D97706 !important;
+}
+
+.congestion-high {
+    background-color: #EF4444 !important; /* Red */
+    border-color: #DC2626 !important;
+}
+
+/* Table Stripes */
+tbody tr:nth-child(odd) {
+    background-color: #f9fafb;
+}
+
+/* Autocomplete Dropdown */
+.autocomplete-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.autocomplete-results div {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.autocomplete-results div:hover {
+    background-color: #f3f4f6;
+}
+
+/* Chart Container */
+canvas {
+    max-height: 250px;
+}
+
+/* Weather Widget */
+#weather-info {
+    transition: all 0.3s ease;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #map {
+        height: 400px;
+    }
+    
+    .chart-container {
+        height: 250px;
+    }
+}
+
+/* Animation for real-time updates */
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+.updating {
+    animation: pulse 1s infinite;
+}
+
+/* Safety Score Colors */
+.safety-excellent {
+    color: #10B981;
+    background-color: #D1FAE5;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.safety-good {
+    color: #3B82F6;
+    background-color: #DBEAFE;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.safety-moderate {
+    color: #F59E0B;
+    background-color: #FEF3C7;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.safety-poor {
+    color: #EF4444;
+    background-color: #FEE2E2;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+/* Road Status Badges */
+.status-smooth {
+    color: #059669;
+    font-weight: 600;
+}
+
+.status-moderate {
+    color: #D97706;
+    font-weight: 600;
+}
+
+.status-heavy {
+    color: #DC2626;
+    font-weight: 600;
+}
+
+/* Loading Spinner */
+.spinner {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #3B82F6;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Safe Route Cards */
+.safe-route-card {
+    border-left: 4px solid #10B981;
+    transition: transform 0.2s ease;
+}
+
+.safe-route-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Weather Icons */
+.weather-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Map Controls */
+.leaflet-control-container .leaflet-top {
+    margin-top: 70px;
+}
+
+/* Responsive Typography */
+@media (max-width: 640px) {
+    .text-2xl {
+        font-size: 1.5rem;
+    }
+    
+    .text-xl {
+        font-size: 1.25rem;
+    }
+}

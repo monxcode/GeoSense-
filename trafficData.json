@@ -1,0 +1,137 @@
+[
+  {
+    "road": "MG Road",
+    "location": [24.5854, 73.7125],
+    "congestion": 70,
+    "accidents": 2,
+    "averageSpeed": 25,
+    "safetyScore": 45,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Lake Pichola Road",
+    "location": [24.5754, 73.6900],
+    "congestion": 40,
+    "accidents": 0,
+    "averageSpeed": 35,
+    "safetyScore": 78,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "City Palace Road",
+    "location": [24.5760, 73.6800],
+    "congestion": 85,
+    "accidents": 1,
+    "averageSpeed": 15,
+    "safetyScore": 32,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Fateh Sagar Road",
+    "location": [24.5925, 73.6746],
+    "congestion": 55,
+    "accidents": 0,
+    "averageSpeed": 28,
+    "safetyScore": 65,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Hiran Magri Road",
+    "location": [24.5550, 73.6800],
+    "congestion": 65,
+    "accidents": 1,
+    "averageSpeed": 22,
+    "safetyScore": 52,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Sukhadia Circle",
+    "location": [24.5800, 73.7000],
+    "congestion": 90,
+    "accidents": 3,
+    "averageSpeed": 12,
+    "safetyScore": 25,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Airport Road",
+    "location": [24.6200, 73.8961],
+    "congestion": 30,
+    "accidents": 0,
+    "averageSpeed": 45,
+    "safetyScore": 85,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Udai Marg",
+    "location": [24.5700, 73.7100],
+    "congestion": 75,
+    "accidents": 2,
+    "averageSpeed": 20,
+    "safetyScore": 41,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Bapu Bazaar Road",
+    "location": [24.5780, 73.6830],
+    "congestion": 80,
+    "accidents": 1,
+    "averageSpeed": 18,
+    "safetyScore": 37,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Sajjan Niwas Road",
+    "location": [24.5900, 73.6950],
+    "congestion": 45,
+    "accidents": 0,
+    "averageSpeed": 32,
+    "safetyScore": 72,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Panchwati Road",
+    "location": [24.6000, 73.6800],
+    "congestion": 35,
+    "accidents": 0,
+    "averageSpeed": 38,
+    "safetyScore": 80,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Delhi Road",
+    "location": [24.6100, 73.7300],
+    "congestion": 60,
+    "accidents": 1,
+    "averageSpeed": 25,
+    "safetyScore": 57,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Ambamata Road",
+    "location": [24.5650, 73.7050],
+    "congestion": 50,
+    "accidents": 0,
+    "averageSpeed": 30,
+    "safetyScore": 68,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Shastri Circle",
+    "location": [24.5720, 73.6900],
+    "congestion": 85,
+    "accidents": 2,
+    "averageSpeed": 16,
+    "safetyScore": 31,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "road": "Bhagwat Bhavan Road",
+    "location": [24.5950, 73.7100],
+    "congestion": 40,
+    "accidents": 0,
+    "averageSpeed": 35,
+    "safetyScore": 75,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  }
+]
