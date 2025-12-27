@@ -97,6 +97,6 @@ Edit `data/trafficData.json` to add more Udaipur roads:
   "averageSpeed": km/h
 }
 
-## Demo
+### Demo
 
-live hare: https://monxcode.github.io/GeoSense-/
+live hare: "https://monxcode.github.io/GeoSense-/"
