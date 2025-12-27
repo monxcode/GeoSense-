@@ -2,6 +2,10 @@
 
 A smart traffic and safety intelligence dashboard for Udaipur that visualizes movement and traffic data, provides safety insights, and helps users make informed travel decisions.
 
+# Demo
+
+live hare: "https://monxcode.github.io/GeoSense-/"
+
 ## Features
 
 ### 1. Interactive Map
@@ -97,6 +101,3 @@ Edit `data/trafficData.json` to add more Udaipur roads:
   "averageSpeed": km/h
 }
 
-### Demo
-
-live hare: "https://monxcode.github.io/GeoSense-/"
