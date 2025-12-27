@@ -96,3 +96,7 @@ Edit `data/trafficData.json` to add more Udaipur roads:
   "accidents": number,
   "averageSpeed": km/h
 }
+
+## Demo
+
+live hare: https://monxcode.github.io/GeoSense-/
