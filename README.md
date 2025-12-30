@@ -4,7 +4,7 @@ A smart traffic and safety intelligence dashboard for Udaipur that visualizes mo
 
 # Demo
 
-live hare: "https://monxcode.github.io/GeoSense-/"
+live hare: "https://monxcode.github.io/City-pulse/"
 
 ## Features
 
